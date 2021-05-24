@@ -1,0 +1,5 @@
+colorama
+emailprotectionslib>=0.8.2
+dnslib
+tldextract
+resolver==0.2.1

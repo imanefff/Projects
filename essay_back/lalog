@@ -1,0 +1,7 @@
+#!/bin/bash
+rm -rf /home/vagrant/Projects/ecomwebsite/storage/logs/laravel.log
+echo "Laravel log removed"
+touch /home/vagrant/Projects/ecomwebsite/storage/logs/laravel.log
+echo "Laravel log created"
+chmod -R 755 /home/vagrant/Projects/ecomwebsite/storage/
+echo "CHMOD 777 on Storage dir"

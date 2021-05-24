@@ -1,0 +1,25 @@
+Rahul attached is the required .war file as spring boot app
+In any system where you want to run you should have jdk1.8 or later
+all you need is to copy this file at some location and then run the following command
+java -jar EmailFilter-0.0.1-SNAPSHOT.war
+after executing the above command the application will be available at
+http://<your host ip or name>:9090/
+
+java -jar root/EmailFiler/EmailFilter-0.0.1-SNAPSHOT (1).war
+
+
+Location:
+root/root/
+
+Find Process ID:
+ps -ef | grep java
+
+Kill Process:
+kill -9 14894
+kill -9 30766
+
+Or kill 9 process id
+
+
+sh root/EmailFiler/EmailFiler/run.sh
+sh root/EmailFiler/EmailFiler/EmailFilter-0.0.1-SNAPSHOTT.war

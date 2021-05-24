@@ -1,0 +1,6 @@
+dnspython==1.12.0
+pycrypto==2.6.1
+pycurl==7.43. 
+python-apt==1.1.0b1+ubuntu0.16.4.5
+
+

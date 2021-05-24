@@ -1,0 +1,6 @@
+/node_modules
+/vendor
+# /composer.json
+composer.lock
+/package-lock.json
+python/p copy.py
