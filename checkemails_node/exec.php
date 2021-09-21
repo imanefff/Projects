@@ -17,11 +17,12 @@ if (isset($_POST['emails']) && !empty($_POST['emails'])) {
     echo $emails ;
 
     $result = popen("python3 " . __DIR__ . "/python/p.py $emails ", "r");
-
+	//echo $result
     
     while ($b = fgets($result, 2048)) {
 
         $client->initialize();
+        //$client->emit("message", ["resultat" =>  json_decode($b), "uiid" => $_SESSION['uid'], "test"=> $b]);
         $client->emit("message", ["resultat" =>  json_decode($b), "uiid" => $_SESSION['uid'], "test"=> $b]);
         $client->close();
 

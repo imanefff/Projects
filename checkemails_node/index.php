@@ -95,6 +95,7 @@ if (!(isset($_SESSION['uid']) && !empty($_SESSION['uid'])))
 
     $("#emaillist").submit(function(e) {
         e.preventDefault();
+	
         $.post('./exec.php', {
             "emails": $(this).serializeArray()[0].value
         }, function(data) {

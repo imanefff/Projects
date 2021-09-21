@@ -1,0 +1,2 @@
+['sbcglobal.net', 'imap.mail.att.net', '993', 'ssl']
+{"completed": false, "data": {"email": "bruck@sbcglobal.net", "password": "kzjV"}, "msg": "Exeption", "err": "[SSL] malloc failure (_ssl.c:841)", "case": 0}
